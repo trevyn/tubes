@@ -5,7 +5,8 @@ version = "0.0.0"
 
 [dependencies]
 eframe = "0.19"
-egui_nodes = {git = "https://github.com/trevyn/egui_nodes", branch = "main"}
+# egui_nodes = {git = "https://github.com/trevyn/egui_nodes", branch = "main"}
+egui_nodes = {path = "../egui_nodes"}
 
 [patch.crates-io]
 eframe = {git = "https://github.com/emilk/egui", branch = "master"}
