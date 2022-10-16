@@ -1,0 +1,12 @@
+[package]
+edition = "2021"
+name = "graphtest"
+version = "0.0.0"
+
+[dependencies]
+eframe = "0.19"
+egui_nodes = {git = "https://github.com/trevyn/egui_nodes", branch = "main"}
+
+[patch.crates-io]
+eframe = {git = "https://github.com/emilk/egui", branch = "master"}
+egui = {git = "https://github.com/emilk/egui", branch = "master"}
